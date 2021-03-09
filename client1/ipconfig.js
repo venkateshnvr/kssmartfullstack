@@ -1,0 +1,1 @@
+export const ipConfig =  "http://127.0.0.1:4001"

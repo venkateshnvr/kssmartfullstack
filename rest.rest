@@ -1,0 +1,24 @@
+# GET http://localhost:4001/get
+
+
+# POST http://127.0.0.1:4001/api/employee HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "employeeName": "venkatesh",
+#     "gender": "male",
+#     "degination": "hhhh",
+#     "admin": "ij",
+#     "city": "vvvv"
+# }
+
+# POST http://127.0.0.1:4001/post/login HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "userName": "venkatesh",
+#     "password": "9989860557",
+#     "fullName": "venkatesh n"
+# }
+
+DELETE http://127.0.0.1:4001/api/employee/604694239e89f60dc0a94d28
