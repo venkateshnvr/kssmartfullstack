@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 const express = require('express');
 const employee = require('./../schema/mongodb/employee.model')
 const router = express.Router();
@@ -17,8 +17,10 @@ router.post('/employee', (req, res) => {
 })
 
 router.get('/employee/:admin', (req, res) => {
-    employee.find({admin: req.params.admin})
-    .then(data => res.status(200).send(data))
+    employee.find({'admin': req.params.admin})
+    .then(data => {
+        res.json(data)
+    })
     .catch(err => res.send("data not found 400"))
 })
 

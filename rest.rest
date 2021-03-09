@@ -1,4 +1,4 @@
-# GET http://localhost:4001/get
+GET http://localhost:4001/api/employee/sai
 
 
 # POST http://127.0.0.1:4001/api/employee HTTP/1.1
@@ -21,4 +21,4 @@
 #     "fullName": "venkatesh n"
 # }
 
-DELETE http://127.0.0.1:4001/api/employee/604694239e89f60dc0a94d28
+# DELETE http://127.0.0.1:4001/api/employee/604694239e89f60dc0a94d28

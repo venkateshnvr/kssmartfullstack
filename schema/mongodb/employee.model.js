@@ -9,7 +9,7 @@ const employee = new mongoose.Schema({
     gender: {
         type: String,
         required: true,
-        enum: ["male", "female"]
+        enum: ["Male", "Female"]
     },
     degination: {
         type: String,
