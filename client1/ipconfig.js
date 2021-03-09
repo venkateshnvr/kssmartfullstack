@@ -1,1 +1,1 @@
-export const ipConfig =  "http://127.0.0.1:4001"
+export const ipConfig =  "https://blazore.herokuapp.com/"
